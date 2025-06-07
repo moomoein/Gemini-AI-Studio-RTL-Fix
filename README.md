@@ -41,12 +41,10 @@
 ## 📸 تصاویر (Screenshots)
 
 **قبل (Before):**
-![Before Screenshot](link/to/your/before-screenshot.png)
+![Before Screenshot](before-screenshot.png)
 
 **بعد (After):**
-![After Screenshot](link/to/your/after-screenshot.png)
-
-*(برای قرار دادن تصویر، ابتدا اسکرین‌شات‌ها را در بخش "Issues" ریپازیتوری آپلود کنید و لینک آن را اینجا جایگزین کنید.)*
+![After Screenshot](after-screenshot.png)
 
 ## 📜 مجوز (License)
 

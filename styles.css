@@ -1,0 +1,87 @@
+/* 1. Import Vazirmatn Font from CDN */
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('moz-extension://__MSG_@@extension_id__/fonts/Vazirmatn-Regular.woff2') format('woff2');
+    font-weight: normal;
+    /* یا 400 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('moz-extension://__MSG_@@extension_id__/fonts/Vazirmatn-Bold.woff2') format('woff2');
+    font-weight: bold;
+    /* یا 700 */
+    font-style: normal;
+}
+
+/* 2. Apply styles to specific elements on Gemini and AI Studio */
+
+/* -- Target for Gemini (gemini.google.com) -- */
+
+/* Style for AI's response blocks */
+.model-response-text .markdown {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-size: 1.1rem !important;
+    /* کمی بزرگ‌تر برای خوانایی بهتر */
+    line-height: 1.8 !important;
+    /* فاصله خطوط بیشتر */
+}
+
+ms-cmark-node p {
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+ms-text-chunk:not(textarea),
+.conversation-container {
+    direction: rtl;
+    text-align: start;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+ms-text-chunk h3 {
+    font-family: 'Vazirmatn', sans-serif !important;
+    background: #87a9ff38;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: 500 !important;
+}
+
+ms-code-block {
+    direction: ltr;
+}
+
+/* Style for User's prompt blocks */
+.query-text {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+/* Style for the input area (textarea) */
+.input-area rich-textarea>div {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+
+/* -- Target for AI Studio (aistudio.google.com) -- */
+/* Note: Selectors for AI Studio might be different. You need to inspect them. */
+/* Example selectors below are guesses and need to be verified. */
+
+/* AI Studio - Chat message content */
+.chat-message-content {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+/* AI Studio - Input Textarea */
+.chat-prompt-input-container textarea {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}

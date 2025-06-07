@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini & AI Studio RTL Fix",
+    "version": "1.0",
+    "description": "افزودن استایل راست‌چین (RTL) و فونت وزیر برای بهبود تجربه کاربری فارسی در سایت‌های Gemini و AI Studio.",
+  
+    "content_scripts": [
+      {
+        "matches": [
+          "*://gemini.google.com/*",
+          "*://aistudio.google.com/*"
+        ],
+        "css": ["styles.css"]
+      }
+    ],
+
+    "web_accessible_resources": [
+    {
+      "resources": [ "fonts/Vazirmatn-Regular.woff2", "fonts/Vazirmatn-Bold.woff2" ],
+      "matches": [ "*://gemini.google.com/*", "*://aistudio.google.com/*" ]
+    }
+  ] ,
+  
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "gemini-rtl-fix@moomoein.com"
+      }
+    }
+  }

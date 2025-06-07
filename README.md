@@ -38,8 +38,6 @@
 
 **[Install from Mozilla Add-ons (AMO)](https://addons.mozilla.org/en-US/firefox/addon/gemini-ai-studio-rtl-fix/)**
 
-*(توجه: لینک بالا پس از تایید نهایی افزونه توسط موزیلا فعال خواهد شد.)*
-
 ## 📸 تصاویر (Screenshots)
 
 **قبل (Before):**

@@ -39,12 +39,20 @@
 **[Install from Mozilla Add-ons (AMO)](https://addons.mozilla.org/en-US/firefox/addon/gemini-ai-studio-rtl-fix/)**
 
 ## 📸 تصاویر (Screenshots)
-
-**قبل (Before):**
-![Before Screenshot](before-screenshot.png)
-
-**بعد (After):**
-![After Screenshot](after-screenshot.png)
+<table align="center">
+  <tr>
+    <td align="center"><strong>قبل (Before)</strong></td>
+    <td align="center"><strong>بعد (After)</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="before-screenshot.png" alt="Before installing the add-on" width="100%">
+    </td>
+    <td>
+      <img src="after-screenshot.png" alt="After installing the add-on" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## 📜 مجوز (License)
 

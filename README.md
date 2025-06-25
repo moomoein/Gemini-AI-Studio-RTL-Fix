@@ -14,7 +14,7 @@
   <a href="https://addons.mozilla.org/en-US/firefox/addon/gemini-ai-studio-rtl-fix/">
     <img src="https://img.shields.io/amo/v/gemini-ai-studio-rtl-fix.svg?style=for-the-badge" alt="AMO Version">
   </a>
-  <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/LICENSE">
+  <a href="https://github.com/moomoein/Gemini-AI-Studio-RTL-Fix/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/moomoein/Gemini-AI-Studio-RTL-Fix.svg?style=for-the-badge" alt="License">
   </a>
 </p>

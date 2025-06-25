@@ -1,7 +1,7 @@
 # Gemini & AI Studio RTL Fix
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/icons/icon-128.png" alt="Extension Icon" width="128">
+  <img src="https://addons.mozilla.org/user-media/addon_icons/2919/2919442-64.png" alt="Extension Icon" width="128">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/amo/v/gemini-ai-studio-rtl-fix.svg?style=for-the-badge" alt="AMO Version">
   </a>
   <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO_NAME.svg?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/github/license/moomoein/Gemini-AI-Studio-RTL-Fix.svg?style=for-the-badge" alt="License">
   </a>
 </p>
 

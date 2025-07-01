@@ -1,11 +1,11 @@
-# Gemini & AI Studio RTL Fix
+# Gemini & AI Studio RTL Fix – Firefox & Chrome Extension
 
 <p align="center">
   <img src="https://addons.mozilla.org/user-media/addon_icons/2919/2919442-64.png" alt="Extension Icon" width="128">
 </p>
 
 <p align="center">
-  یک افزونه فایرفاکس برای بهبود تجربه کاربری فارسی در سایت‌های Gemini و AI Studio گوگل.
+  افزونه‌ای برای فایرفاکس و گوگل کروم جهت بهبود تجربه کاربری فارسی در سایت‌های Gemini و AI Studio گوگل.
   <br>
   A Firefox add-on to improve the Persian user experience on Google's Gemini & AI Studio.
 </p>
@@ -36,6 +36,23 @@
 
 **[Install from Mozilla Add-ons (AMO)](https://addons.mozilla.org/en-US/firefox/addon/gemini-ai-studio-rtl-fix/)**
 
+---
+
+همچنین برای نصب این افزونه برای Chrome به این صورت اقدام کنید:
+
+
+1. Download or clone this repository.
+2. Go to `chrome://extensions/` in your Chrome browser.
+3. Enable “Developer Mode” (top-right).
+4. Click “Load unpacked”.
+5. Select the folder: `chrome-extension`
+
+
+
+The extension will now be active on:
+- [gemini.google.com](https://gemini.google.com)
+- [aistudio.google.com](https://aistudio.google.com)
+
 ## 📸 تصاویر (Screenshots)
 <table align="center">
   <tr>
@@ -51,6 +68,19 @@
     </td>
   </tr>
 </table>
+
+
+## 📁 Folder Structure
+
+├── chrome-extension/ # Chrome version of the extension
+│ ├── manifest.json
+│ ├── styles.css
+│ └── fonts/
+├── manifest.json # Firefox version
+├── styles.css # Firefox stylesheet
+├── README.md
+└── ...
+
 
 ## 📜 مجوز (License)
 

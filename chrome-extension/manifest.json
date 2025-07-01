@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini & AI Studio RTL Fix (Chrome)",
+  "version": "1.0",
+  "description": "Adds RTL layout and Persian font support for Google's Gemini and AI Studio.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gemini.google.com/*",
+        "https://aistudio.google.com/*"
+      ],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/Vazirmatn-Regular.woff2",
+        "fonts/Vazirmatn-Bold.woff2"
+      ],
+      "matches": [
+        "https://gemini.google.com/*",
+        "https://aistudio.google.com/*"
+      ]
+    }
+  ],
+  "permissions": [],
+  "action": {
+    "default_title": "RTL Fix Active"
+  }
+}

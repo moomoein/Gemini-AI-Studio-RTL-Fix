@@ -7,7 +7,7 @@
 <p align="center">
   افزونه‌ای برای فایرفاکس و گوگل کروم جهت بهبود تجربه کاربری فارسی در سایت‌های Gemini و AI Studio گوگل.
   <br>
-  A Firefox add-on to improve the Persian user experience on Google's Gemini & AI Studio.
+  A Firefox & Chrome extension to improve the Persian user experience on Google's Gemini & AI Studio.
 </p>
 
 <p align="center">

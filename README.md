@@ -69,7 +69,7 @@ The extension will now be active on:
   </tr>
 </table>
 
-
+```
 ## 📁 Folder Structure
 
 Gemini-AI-Studio-RTL-Fix/
@@ -86,7 +86,7 @@ Gemini-AI-Studio-RTL-Fix/
 ├── after-screenshot.png # Screenshot after RTL fix
 ├── LICENSE
 └── README.md
-
+```
 ## 📜 مجوز (License)
 
 این پروژه تحت مجوز [MIT License](LICENSE) منتشر شده است.

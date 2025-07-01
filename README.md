@@ -69,9 +69,9 @@ The extension will now be active on:
   </tr>
 </table>
 
-```
-## 📁 Folder Structure
 
+## 📁 Folder Structure
+```
 Gemini-AI-Studio-RTL-Fix/
 ├── chrome-extension/ # Chrome version of the extension
 │ ├── manifest.json

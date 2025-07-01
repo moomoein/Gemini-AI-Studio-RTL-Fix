@@ -72,15 +72,20 @@ The extension will now be active on:
 
 ## 📁 Folder Structure
 
+Gemini-AI-Studio-RTL-Fix/
 ├── chrome-extension/ # Chrome version of the extension
 │ ├── manifest.json
 │ ├── styles.css
 │ └── fonts/
-├── manifest.json # Firefox version
-├── styles.css # Firefox stylesheet
-├── README.md
-└── ...
-
+│ ├── Vazirmatn-Regular.woff2
+│ └── Vazirmatn-Bold.woff2
+│
+├── manifest.json # Firefox manifest file
+├── styles.css # Firefox CSS file
+├── before-screenshot.png # Screenshot before RTL fix
+├── after-screenshot.png # Screenshot after RTL fix
+├── LICENSE
+└── README.md
 
 ## 📜 مجوز (License)
 

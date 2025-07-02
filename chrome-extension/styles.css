@@ -1,20 +1,4 @@
-@font-face {
-  font-family: 'Vazirmatn';
-  src: 
-    url('fonts/Vazirmatn-Regular.woff2') format('woff2'),
-    url('moz-extension://__MSG_@@extension_id__/fonts/Vazirmatn-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Vazirmatn';
-  src: 
-    url('fonts/Vazirmatn-Bold.woff2') format('woff2'),
-    url('moz-extension://__MSG_@@extension_id__/fonts/Vazirmatn-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/vazirmatn@latest/index.css');
 
 
 /* Gemini */

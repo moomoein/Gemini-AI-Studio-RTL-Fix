@@ -1,13 +1,13 @@
-# Gemini & AI Studio RTL Fix
+# Gemini & AI Studio RTL Fix – Firefox & Chrome Extension
 
 <p align="center">
   <img src="https://addons.mozilla.org/user-media/addon_icons/2919/2919442-64.png" alt="Extension Icon" width="128">
 </p>
 
 <p align="center">
-  یک افزونه فایرفاکس برای بهبود تجربه کاربری فارسی در سایت‌های Gemini و AI Studio گوگل.
+  افزونه‌ای برای فایرفاکس و گوگل کروم جهت بهبود تجربه کاربری فارسی در سایت‌های Gemini و AI Studio گوگل.
   <br>
-  A Firefox add-on to improve the Persian user experience on Google's Gemini & AI Studio.
+  A Firefox & Chrome extension to improve the Persian user experience on Google's Gemini & AI Studio.
 </p>
 
 <p align="center">
@@ -36,6 +36,23 @@
 
 **[Install from Mozilla Add-ons (AMO)](https://addons.mozilla.org/en-US/firefox/addon/gemini-ai-studio-rtl-fix/)**
 
+---
+
+همچنین برای نصب این افزونه برای Chrome به این صورت اقدام کنید:
+
+
+1. Download or clone this repository.
+2. Go to `chrome://extensions/` in your Chrome browser.
+3. Enable “Developer Mode” (top-right).
+4. Click “Load unpacked”.
+5. Select the folder: `chrome-extension`
+
+
+
+The extension will now be active on:
+- [gemini.google.com](https://gemini.google.com)
+- [aistudio.google.com](https://aistudio.google.com)
+
 ## 📸 تصاویر (Screenshots)
 <table align="center">
   <tr>
@@ -52,6 +69,24 @@
   </tr>
 </table>
 
+
+## 📁 Folder Structure
+```
+Gemini-AI-Studio-RTL-Fix/
+├── chrome-extension/ # Chrome version of the extension
+│ ├── manifest.json
+│ ├── styles.css
+│ └── fonts/
+│ ├── Vazirmatn-Regular.woff2
+│ └── Vazirmatn-Bold.woff2
+│
+├── manifest.json # Firefox manifest file
+├── styles.css # Firefox CSS file
+├── before-screenshot.png # Screenshot before RTL fix
+├── after-screenshot.png # Screenshot after RTL fix
+├── LICENSE
+└── README.md
+```
 ## 📜 مجوز (License)
 
 این پروژه تحت مجوز [MIT License](LICENSE) منتشر شده است.

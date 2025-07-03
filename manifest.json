@@ -8,7 +8,8 @@
       {
         "matches": [
           "*://gemini.google.com/*",
-          "*://aistudio.google.com/*"
+          "*://aistudio.google.com/*",
+          "*://notebooklm.google.com/*"
         ],
         "css": ["styles.css"]
       }
@@ -17,7 +18,7 @@
     "web_accessible_resources": [
     {
       "resources": [ "fonts/Vazirmatn-Regular.woff2", "fonts/Vazirmatn-Bold.woff2" ],
-      "matches": [ "*://gemini.google.com/*", "*://aistudio.google.com/*" ]
+      "matches": [ "*://gemini.google.com/*", "*://aistudio.google.com/*, "*://notebooklm.google.com/*" ]
     }
   ] ,
   

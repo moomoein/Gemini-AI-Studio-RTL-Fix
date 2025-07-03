@@ -18,17 +18,21 @@
 
 
 /* Gemini */
-.model-response-text .markdown {
+.model-response-text,
+.response-container-content,
+.presented-response-container,
+.conversation-container,
+.chat-container,
+.chat-history-scroll-container {
     direction: rtl;
     text-align: right;
     font-family: 'Vazirmatn', sans-serif !important;
-    font-size: 1.1rem !important;
-    line-height: 1.8 !important;
+    font-size: 1.05rem;
+    line-height: 1.8;
 }
-.query-text,
-.input-area rich-textarea>div,
-ms-text-chunk:not(textarea),
-.conversation-container {
+
+textarea,
+input[type="text"] {
     direction: rtl;
     text-align: right;
     font-family: 'Vazirmatn', sans-serif !important;
@@ -37,6 +41,28 @@ ms-text-chunk:not(textarea),
 /* AI Studio */
 .chat-message-content,
 .chat-prompt-input-container textarea {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+
+/* NoteBookLM */
+.model-response-text,
+.response-container-content,
+.presented-response-container,
+.conversation-container,
+.chat-container,
+.chat-history-scroll-container {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+textarea,
+input[type="text"] {
     direction: rtl;
     text-align: right;
     font-family: 'Vazirmatn', sans-serif !important;

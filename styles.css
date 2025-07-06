@@ -85,3 +85,29 @@ ms-code-block {
     text-align: right;
     font-family: 'Vazirmatn', sans-serif !important;
 }
+
+
+/* NoteBookLM section added. */
+
+/* NoteBookLm  -  Model Response */
+.lm-chat-message-content, .notebook-chat-response, .ai-message {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+/* NoteBookLM - input box */
+textarea, .chat-input, .lm-user-textarea {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+/* NoteBookLM - user message */
+.lm-user-message, .user-bubble {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}

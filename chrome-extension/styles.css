@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: 
+    url('fonts/Vazirmatn-Regular.woff2') format('woff2'),
+    url('moz-extension://__MSG_@@extension_id__/fonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: 
+    url('fonts/Vazirmatn-Bold.woff2') format('woff2'),
+    url('moz-extension://__MSG_@@extension_id__/fonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* Gemini */
+.model-response-text,
+.response-container-content,
+.presented-response-container,
+.conversation-container,
+.chat-container,
+.chat-history-scroll-container {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+textarea,
+input[type="text"] {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+/* AI Studio */
+.chat-message-content,
+.chat-prompt-input-container textarea {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+
+/* NoteBookLM */
+.model-response-text,
+.response-container-content,
+.presented-response-container,
+.conversation-container,
+.chat-container,
+.chat-history-scroll-container {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+textarea,
+input[type="text"] {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}

@@ -53,6 +53,10 @@ ms-code-block {
     direction: ltr;
 }
 
+ms-prompt-chunk {
+    justify-content: end;
+}
+
 /* Style for User's prompt blocks */
 .query-text {
     direction: rtl;
@@ -67,6 +71,15 @@ ms-code-block {
     font-family: 'Vazirmatn', sans-serif !important;
 }
 
+
+.prompt-box-container .text-wrapper {
+    direction: rtl;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+.prompt-box-container .text-wrapper textarea {
+    font-family: inherit;
+}
 
 /* -- Target for AI Studio (aistudio.google.com) -- */
 /* Note: Selectors for AI Studio might be different. You need to inspect them. */

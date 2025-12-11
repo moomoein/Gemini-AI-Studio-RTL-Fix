@@ -81,6 +81,20 @@ ms-prompt-chunk {
     font-family: inherit;
 }
 
+.prompt-box-container {
+    border-radius: 25px !important;
+    padding: 20px !important;
+}
+
+.add-media-button {
+    order: 1 !important;
+}
+
+.button-row-left {
+  display: none !important;
+}
+
+
 /* -- Target for AI Studio (aistudio.google.com) -- */
 /* Note: Selectors for AI Studio might be different. You need to inspect them. */
 /* Example selectors below are guesses and need to be verified. */
